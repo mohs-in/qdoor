@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
     extended:true
 }))
 
-mongoose.connect('mongodb+srv://test190:csYjpoQJz53xU7iw@cluster01.ubzqovx.mongodb.net/?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://test190:csYjpoQJz53xU7iw@cluster01.ubzqovx.mongodb.net/',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
